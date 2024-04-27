@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Kalam:wght@300;400;700&display=swap');
+.header{
+  @apply bg-black text-white text-center h-20 flex items-center justify-center capitalize;
+}
+.main{
+  @apply  bg-slate-800 h-auto pt-28 pb-52 flex justify-center items-center;
+}
+.box{
+  @apply w-5/12  h-auto   p-9  rounded-xl shadow-slate-900 shadow-md bg-black;
+}
+.input{
+  @apply w-full h-10 outline-none placeholder-blue-400 bg-blue-500 rounded-l-md p-2  font-medium text-white font-['kalam'] ;
+}
+.button{
+  @apply  bg-slate-50 w-20  hover:bg-slate-300  font-bold active:bg-slate-100  text-blue-500 rounded-r-md p-2 ;
+}
+.hover{
+  @apply hover:scale-125 transition-all  ml-2 focus:outline-none;
+}
