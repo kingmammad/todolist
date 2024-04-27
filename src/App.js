@@ -70,7 +70,7 @@ export default function App() {
             </div>
           </form>
           {
-            todo.length===0? <h2 className=" text-center text-white font-['kalam']">!آدم تنبل هیچ لیستی نداری  همین الان اد کن و انجام بدی</h2>:''
+            todo?.length===0? <h2 className=" text-center text-white font-['kalam']">!آدم تنبل هیچ لیستی نداری  همین الان اد کن و انجام بدی</h2>:''
           }
           <ul className="flex font-['kalam'] flex-col gap-3 p-4">
             {todo.length > 0
